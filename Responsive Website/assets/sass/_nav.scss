@@ -1,0 +1,29 @@
+nav {
+  width: 100vw;
+  background-color: #2f170fde;
+  // height: 72px;
+  .nav_bar {
+    display: none;
+  }
+  .container_nav {
+    max-width: 70vw;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    ul {
+      display: flex;
+      gap: 55px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      li {
+        transition: 300ms;
+        &:hover {
+          color: rgb(169, 169, 169);
+        }
+      }
+    }
+  }
+}
